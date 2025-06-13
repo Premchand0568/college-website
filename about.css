@@ -1,0 +1,82 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ed1384;
+  color: #333;
+}
+
+header.hero {
+  background: url('images/college-banner.jpg') center/cover no-repeat;
+  color: maroon;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+header.hero h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+header.hero p {
+  font-size: 20px;
+  font-weight: 300;
+  color: orangered;
+}
+
+.about-section, .highlights {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.about-section h2, .highlights h2 {
+  color: #cb3f07;
+  margin-bottom: 20px;
+}
+
+.about-section p, .highlights ul {
+  font-size: 18px;
+  line-height: 1.6;
+  color: orange;
+}
+
+.mission-vision {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 40px 20px;
+  background-color: transparent;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  color: #cb3f07;
+  margin-bottom: 10px;
+}
+
+.highlights ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.highlights li {
+  margin: 10px 0;
+  font-size: 17px;
+}
+
+footer {
+  background: #cb3f07;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
